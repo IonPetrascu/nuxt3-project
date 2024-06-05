@@ -4,7 +4,9 @@
 <template>
   <header>
     <div>
-      <nuxt-link to="/">Blog</nuxt-link>
+      <nuxt-link to="/">
+        <img width="100px" height="100px" src="~/assets/imgs/logo.png" alt="vawe">
+      </nuxt-link>
     </div>
     <nav>
       <ul>
