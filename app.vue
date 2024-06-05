@@ -1,15 +1,9 @@
 <template>
-  <div class="container">
-    <AppHeader />
-    <div class="content">
-      <NuxtPage />
-    </div>
-    <AppFooter />
-  </div>
+  <NuxtLayout>
+    <NuxtPage/>
+  </NuxtLayout>
 </template>
 
 <style scoped>
-  .content{
-    min-height: 400px;
-  }
+
 </style>
