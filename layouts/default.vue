@@ -11,7 +11,5 @@
   </div>
 </template>
 <style scoped>
-  .content{
-    min-height: 400px;
-  }
+
 </style>

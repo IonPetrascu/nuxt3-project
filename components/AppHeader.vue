@@ -1,11 +1,10 @@
 <script lang="ts" setup>
-
 </script>
 <template>
   <header>
     <div>
       <nuxt-link to="/">
-        <img width="100px" height="100px" src="~/assets/imgs/logo.png" alt="vawe">
+        <img width="100px" height="100px" src="~/assets/imgs/logo.webp" alt="vawe">
       </nuxt-link>
     </div>
     <nav>
