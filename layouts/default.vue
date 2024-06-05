@@ -10,7 +10,7 @@
     <AppFooter />
   </div>
 </template>
-<style scoped lang="scss">
-  @use '~/assests/scss/app.scss'
+<style scoped>
+
 
 </style>
