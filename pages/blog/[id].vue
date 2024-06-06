@@ -15,6 +15,14 @@ const { data: post, pending, error } = await useAsyncData(`posts_p${params.id}`,
     Error
   </div>
   <div v-else>
+    <Head>
+      <Title>{{ post.title }}</Title>
+      <Meta name="description" :content="post.description" />
+      <Meta name="keywords" :content="post.title" />
+      <Meta name="og:description" :content="post.description" />
+      <Meta name="og:title" :content="post.title" />
+      <Meta name="og:url" :content="`http://localhost:3000/blog/${post.id}`" />
+    </Head>
     <h3>
       <nuxt-link class="text-xl text-gray-500 no-underline mb-2 text-center" to="#">{{ post.title }}</nuxt-link>
     </h3>
