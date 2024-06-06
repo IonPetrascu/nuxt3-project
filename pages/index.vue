@@ -7,7 +7,14 @@ const { data: posts, pending, error } = await useFetch(`${apiBase}/posts`)
 <template>
   <div>
     <h1 class="text-3xl mb-4">Latest Posts</h1>
-    <section>
+    <div v-if="pending">
+      Loading data...
+    </div>
+    <div v-else-if="error" class="text-red-400">
+         <span class="fa fa-exclamation-circle"></span>
+Error loading resulte
+    </div>
+    <section v-else>
       <Post :key="post.id" v-for="post in posts" :post="post" />
     </section>
   </div>
