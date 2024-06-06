@@ -13,5 +13,11 @@ export default defineNuxtConfig({
         }
       ]
     }
+  },
+  runtimeConfig:{
+    secretKey:'',
+    public:{
+      apiBase:''
+    }
   }
 })
