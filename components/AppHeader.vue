@@ -9,13 +9,13 @@
     </div>
     <nav >
       <ul class="list">
-        <li><nuxt-link to="/">Home</nuxt-link></li>
+        <li><nuxt-link to="/"><span class="fas fa-house"></span> Home</nuxt-link></li>
         <li><nuxt-link to="/blog">Blog</nuxt-link></li>
         <li><nuxt-link to="/about">About</nuxt-link></li>
       </ul>
     </nav>
     <div>
-      <nuxt-link to="/account/profile">Profile</nuxt-link>
+      <nuxt-link to="/account/profile"><span class="fa fa-user"></span> Profile</nuxt-link>
     </div>
   </header>
 </template>

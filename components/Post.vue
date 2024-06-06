@@ -8,7 +8,7 @@
     </h3>
     <p class="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, ipsum.</p>
     <span class="block text-sm mt-2 mb-2">Created by: John Doe</span>
-    <time class="block text-sm text-blue-500">2023-10-01</time>
+    <time class="block text-sm text-blue-500"><span class="fa fa-clock"></span> 2023-10-01</time>
     <NuxtLink to="#">Read more</NuxtLink>
   </article>
 </template>

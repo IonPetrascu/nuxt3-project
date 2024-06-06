@@ -11,6 +11,11 @@
   </div>
 </template>
 <style scoped>
-
+.container{
+  margin: 0 auto;
+}
+.content{
+  padding-top: 40px;
+}
 
 </style>
