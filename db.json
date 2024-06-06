@@ -1,11 +1,31 @@
 {
   "posts": [
-    { "id": 1, "title": "a title", "views": 100 },
-    { "id": 2, "title": "another title", "views": 200 }
+    {
+      "id": 1,
+      "title": "a title",
+      "time": "2023-10-01",
+      "author": "John Nick",
+      "description": "lorem1wer44444444444er ter wuhwe fweuwefuhwe wef hwehfhwefiweh fhuwefh wehf wef iwef wefuhwefwiuefhiew"
+    },
+    {
+      "id": 2,
+      "title": "another title",
+      "time": "2023-10-01",
+      "author": "John Nick",
+      "description": "wejkrrjhwe jweuir jilwer welrwehruwehr owehrui jwei rhweuir owehrio uweoi rioweri wehr iuwehriuwheriowriowerhweiorjweoirhiwoerhiowerhwerh "
+    }
   ],
   "comments": [
-    { "id": 1, "text": "a comment about post 1", "postId": 1 },
-    { "id": 2, "text": "another comment about post 1", "postId": 1 }
+    {
+      "id": 1,
+      "text": "a comment about post 1",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "text": "another comment about post 1",
+      "postId": 1
+    }
   ],
   "profile": {
     "name": "typicode"
