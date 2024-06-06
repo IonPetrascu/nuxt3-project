@@ -2,7 +2,7 @@
 
 </script>
 <template>
-<div class="container">
+<div class=" container mx-auto my-4 px-4">
     <AppHeader />
     <nav>
       <ul>

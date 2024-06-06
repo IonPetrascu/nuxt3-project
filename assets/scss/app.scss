@@ -12,15 +12,17 @@
 }
 
 body {
-  font-family: Gabarito ,Arial, Helvetica,sans-serif;
+  font-family: Gabarito, Arial, Helvetica, sans-serif;
+}
 
-  a {
-    font-size: 15px;
-    text-decoration: none;
-    color: inherit;
-  }
+a {
+  @apply text-green-400 underline ;
+  font-size: 15px;
+}
 
-  ul {
-    list-style-type: none;
-  }
+ul {
+  list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6{
+  @apply text-gray-500
 }
