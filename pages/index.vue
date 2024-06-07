@@ -2,7 +2,13 @@
 const config = useRuntimeConfig()
 
 const apiBase = config.public.apiBase
-const { data: posts, pending, error } = await useFetch(`${apiBase}/posts`)
+const { data: posts, pending, error } = await useFetch(`${apiBase}/posts`,{
+  query:{
+    _sort:'id',
+    _order:'desc',
+    _limit:10
+  }
+})
 </script>
 <template>
   <div>
